@@ -21,7 +21,7 @@ perfects :: Int -> [Int]
 perfects n = [ x | x <- [2..n], x == (sum . init $ factors x) ]
 
 strs :: [String]
-strs = ["boy", "girl", "dog", "vagine", "dickballs"]
+strs = ["boy", "girl", "dog", "cactus", "entropy"]
 dotProduct :: [String] -> [String]
 -- dotProduct css | null css = [""]
 --                | otherwise = [ c : cs | cs <- dotProduct(tail css), c <- head css]
